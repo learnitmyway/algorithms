@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "lint": "npx eslint --config .eslintrc.js 'src/**/*.js' --max-warnings 0",
-    "test": "jest"
+    "test:ci": "jest",
+    "test": "jest -- watch"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
