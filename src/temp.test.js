@@ -1,3 +1,5 @@
+import temp from './temp'
+
 it('temp', () => {
-  expect(true).toBe(false)
+  expect(temp()).toBe(false)
 })
